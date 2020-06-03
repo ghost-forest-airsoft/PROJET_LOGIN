@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title> Mon site </title>
+<link rel="stylesheet" href="PAGE CSS/stylelogin.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="row">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-6">
+
+    	<div class="framework">
+			<form action="indentification.php" method="POST">
+
+				<div>
+				<h1>S'identifier</h1>
+				<div/>
+					<div class="information">
+						  <div>
+							<label>Pseudo:</label>
+							<input type="text" name="pseudo" minlength="1">
+							</input>
+		            	</div>
+
+								<label>Mot de passe:</label>
+								<input type="password" name="controlemdp" minlength="1">
+								</input>
+							</div>
+
+						<div class="validation">
+							<input class="button" type="submit"value="Envoyer"/>
+							<p>Tu n'as pas de conpte ?? <a href="register.html">Crée un compte</a> </p>
+						</div>
+
+			</form>
+		</div>
+</div>
+
+</body>
+</html>

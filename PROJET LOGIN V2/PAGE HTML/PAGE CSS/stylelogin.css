@@ -1,0 +1,43 @@
+
+body
+{
+background-color: black;
+font-family:Arial,sans-serif;
+font-size: 20px;
+background-image: url('../images/FOND.jpg');
+background-repeat: no no-repeat;
+background-attachment: fixed;
+background-position: 100%;
+background-position:center center;
+}
+
+.framework
+{
+	text-align: center;
+	text-decoration: color: b;
+
+  padding-top: 20px;
+  padding-bottom:80px;
+  margin-top: 280px;
+  border: 9px black outset;
+  border-radius: 10px;
+}
+
+.div
+{
+	padding: 20px, 0px ;
+	text-align: center;
+}
+
+.button
+{
+padding-top: 80px;
+margin-top: 20px;
+color: #fff;
+font-size:14px;
+font-weight: bold;
+padding:11px;
+background-color:rgba(175, 175, 175);
+border: 3px grey outset;
+border-radius: 3px;
+}
