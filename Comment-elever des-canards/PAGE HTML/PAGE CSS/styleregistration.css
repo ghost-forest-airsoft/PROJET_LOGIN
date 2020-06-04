@@ -1,0 +1,51 @@
+body
+{
+background-color: black;
+  font-family:Arial,sans-serif;
+  font-size: 20px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+  color:rgb(8, 8, 8);
+    background-image: url('../images/FOND.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-position:center center;
+}
+
+.fileAform
+{
+	text-align: center;
+	text-decoration: color: black;
+
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-top: 280px;
+  border: 9px black outset;
+  border-radius: 10px;
+}
+
+.button
+{
+  padding-top: 80px;
+margin-top: 20px;
+  color: #fff;
+  font-size:14px;
+  font-weight: bold;
+  padding:11px;
+  background-color:rgba(175, 175, 175);
+  border: 3px grey outset;
+  border-radius: 3px;
+}
+
+.validation
+{
+                position: absolute;
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                top:50%;
+                left:50%;
+
+
+}
